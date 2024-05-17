@@ -1,15 +1,16 @@
-html{ 
+html {
   background-color: rgb(34, 34, 34);
+  color: rgb(221, 221, 221);
   margin: 0;
 }
 
-body{
+body {
   font-family: Arial;
   margin: 0;
   padding: 0;
 }
 
-header{ 
+header {
   background-color: #6B6969;
   padding-top: 0;
   padding-left: 0;
@@ -19,143 +20,169 @@ header{
   text-align: center;
 }
 
-body>header:first-child{
+body>header:first-child {
   border-bottom: 1px solid white;
 }
 
-.section{
+.section {
   text-align: center;
 }
 
-h2, p, a:hover, li, hr, h4{
-  color: rgb(221, 221, 221);
+h2,
+p,
+a:hover,
+li,
+hr,
+h4 {
   text-align: center;
 }
 
-header h1{
+.tym section {
+  margin: 4px;
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.clen {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+header h1 {
   color: rgb(227, 227, 227);
   text-align: center;
   margin: 0;
   padding: 0;
 }
 
-header h2{
+header h2 {
   line-height: 35px;
-  background-color:#524e4e;
-  color:#b8b8b8;
+  background-color: #524e4e;
+  color: #b8b8b8;
 }
 
-header ul{
+header ul {
   list-style: none;
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-header li{ 
+header li {
   display: inline-block;
+  margin: 0;
+  padding: 0;
 }
 
-header a{
+header a {
   display: block;
   background-color: rgb(197, 197, 197);
   color: rgb(116, 116, 116);
   text-decoration: none;
-  padding: 15px 10px;
+  padding: 12px 10px;
   width: 75px;
+  margin: 6px;
 }
 
-a:active, a:link{ 
-  color:#524e4e;
+a:active,
+a:link {
+  color: #524e4e;
   background-color: rgb(197, 197, 197);
 }
 
-main{
+main {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 1rem;
+  padding-bottom: 3rem;
 }
 
-section.section1{
+section.section1 {
   flex: 1;
   padding: 1rem 2rem 1rem 2rem;
   margin: 1rem 2rem 1rem 2rem;
   text-align: center;
 }
 
-section{
+section {
   flex: 1;
-  padding: 50px;
-  margin: 20px;
   text-align: center;
 }
 
-section.prvni{
+section.prvni {
   flex: 1;
   padding: 0;
   margin: 5;
   text-align: center;
 }
 
-img{
+img {
   max-width: 5rem;
   height: auto;
   border-radius: 15px;
-  margin-bottom: 15px;
-} 
 
-.href{
-  color:aliceblue;
 }
 
-.Edu, .Edu1{ 
-text-align: center;
+.href {
+  color: aliceblue;
 }
 
-h3{
+.Edu,
+.Edu1 {
+  text-align: center;
+}
+
+h3 {
   text-align: center;
   color: red;
 }
 
-iframe{
+iframe {
   display: block;
   margin: auto;
 }
 
-.pismo2{
+.pismo2 {
   color: rgb(221, 221, 221);
   text-align: center;
   font-size: larger;
 }
 
+.informace {
+  width: 100%;
+}
+
 
 /* ----------------------------------------------------------------*/
 
 
-.team-members{
-  display:flex ;
-  flex-wrap:wrap ;
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
-.team-member{
+.team-member {
   text-align: center;
   margin: 20px;
   width: 20%;
 }
 
-.team-member i{
+.team-member i {
   font-size: 48px;
-  color:black;
+  color: black;
 }
 
-.team-member h2{
+.team-member h2 {
   margin-top: 10px;
 }
 
-.team-member{
+.team-member {
   color: #777;
 }
 
-.social-icon{
+.social-icon {
   text-align: center;
 }
 
@@ -163,14 +190,51 @@ iframe{
 /* ----------------------------------------------------------------*/
 
 
-footer{
-  background-color:#3f3f3f;
-  color:#a8a8a8;
+footer {
+  background-color: #3f3f3f;
+  color: #a8a8a8;
   text-align: center;
   font-style: normal;
+  font-size: 0.75rem;
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
   position: fixed;
+  padding: 0.5rem;
 }
+
+footer .odkaz {
+  padding: 4px;
+
+  display: inline-block;
+
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px dashed rgb(75, 75, 75);
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  h3 {
+    color: orange;
+  }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  h3 {
+    color: aqua;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
