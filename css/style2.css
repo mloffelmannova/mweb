@@ -1,7 +1,16 @@
-html, body{
-    background-color: #6B6969;;
+html,
+body {
+    background-color: #cacaca;
+    ;
 }
 
-h2{
-    color: #2a2a2a;
+h2 {
+    color: #b60000b4;
+    text-align: center;
+}
+
+a:active,
+a:link {
+    color: #524e4e;
+    background-color: rgb(214, 214, 214);
 }

@@ -153,36 +153,7 @@ iframe {
   width: 100%;
 }
 
-
-/* ----------------------------------------------------------------*/
-
-
-.team-members {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.team-member {
-  text-align: center;
-  margin: 20px;
-  width: 20%;
-}
-
-.team-member i {
-  font-size: 48px;
-  color: black;
-}
-
-.team-member h2 {
-  margin-top: 10px;
-}
-
-.team-member {
-  color: #777;
-}
-
-.social-icon {
+.text {
   text-align: center;
 }
 
@@ -216,17 +187,25 @@ hr {
   border-top: 1px dashed rgb(75, 75, 75);
 }
 
+/* ----------------------------------------------------------------*/
+
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  h3 {
-    color: orange;
+  iframe {
+    width: auto;
+  }
+
+  .tym section {
+    margin: 25px;
+    padding: 10px;
   }
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  h3 {
-    color: aqua;
+  iframe {
+    width: 600px;
+    height: 400px;
   }
 }
 
