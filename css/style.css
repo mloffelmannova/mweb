@@ -28,6 +28,28 @@ body>header:first-child {
   text-align: center;
 }
 
+.textC {
+  color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.container2 {
+  text-align: center;
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.prvniii {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1rem;
+}
+
 h2,
 p,
 a:hover,
@@ -41,6 +63,7 @@ h4 {
   margin: 4px;
   margin-bottom: 16px;
   background-color: rgba(255, 255, 255, 0.05);
+
 }
 
 .clen {
@@ -187,14 +210,33 @@ hr {
   border-top: 1px dashed rgb(75, 75, 75);
 }
 
+.frame-1 {
+  aspect-ratio: 5/3;
+}
+
+
+.odkaz {
+  background-color: rgb(69, 69, 69);
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  from {
+    background-color: rgb(53, 53, 53);
+  }
+
+  to {
+    background-color: rgb(234, 234, 234);
+  }
+}
+
+
 /* ----------------------------------------------------------------*/
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
-  iframe {
-    width: auto;
-  }
-
   .tym section {
     margin: 25px;
     padding: 10px;
@@ -202,12 +244,7 @@ hr {
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-  iframe {
-    width: 600px;
-    height: 400px;
-  }
-}
+@media (min-width: 768px) {}
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {}
