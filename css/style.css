@@ -144,7 +144,6 @@ img {
   max-width: 5rem;
   height: auto;
   border-radius: 15px;
-
 }
 
 .href {
@@ -199,9 +198,7 @@ footer {
 
 footer .odkaz {
   padding: 4px;
-
   display: inline-block;
-
 }
 
 hr {
