@@ -63,7 +63,6 @@ h4 {
   margin: 4px;
   margin-bottom: 16px;
   background-color: rgba(255, 255, 255, 0.05);
-
 }
 
 .clen {
@@ -224,6 +223,8 @@ hr {
   border: 0;
   height: 0;
   border-top: 1px dashed rgb(26, 50, 73);
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .frame-1 {
